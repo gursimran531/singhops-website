@@ -494,8 +494,8 @@ function App() {
             
             <h1 className={`text-4xl md:text-6xl font-bold mb-6 leading-tight animate-fadeInUp animation-delay-200 -mt-4 ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
               Gursimran Singh
-              <span className={`block text-2xl md:text-3xl font-normal mt-2 ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-                Cloud & DevOps Engineer | Founder of SinghOps
+              <span className="block text-2xl md:text-3xl font-normal mt-2 text-gray-300">
+                Cloud & DevOps Engineer
               </span>
             </h1>
             
