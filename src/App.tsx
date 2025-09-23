@@ -835,7 +835,7 @@ function App() {
 
           <div className="text-center animate-fadeInUp">
             <a 
-              href="https://blogs.singhops.net" 
+              href="https://blog.singhops.net"
               target="_blank"
               rel="noopener noreferrer"
               className={`inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg font-semibold ${isDarkMode ? 'bg-cyan-600 hover:bg-cyan-700 text-white' : 'bg-blue-700 hover:bg-blue-800 text-white'}`}
