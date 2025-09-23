@@ -481,8 +481,8 @@ function App() {
                 <img 
                   src="/profile.jpg" 
                   alt="Gursimran Singh" 
-                  className="h-32 w-32 rounded-full object-cover image-rendering-crisp-edges transition-transform duration-500 hover:rotate-360"
-                />
+                  className="h-32 w-32 rounded-xl object-cover image-rendering-crisp-edges"
+                  style={{
                     imageRendering: 'crisp-edges',
                     filter: 'contrast(1.1) brightness(1.05) saturate(1.1)',
                     backfaceVisibility: 'hidden',
@@ -897,10 +897,10 @@ function App() {
                   onClick={downloadResume}
                   className={`px-8 py-4 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg font-semibold flex items-center space-x-2 ${isDarkMode ? 'bg-cyan-600 hover:bg-cyan-700 text-white' : 'bg-cyan-600 hover:bg-cyan-700 text-white'}`}
                 >
-                   style={{
-                     backfaceVisibility: 'hidden',
-                     transform: 'translateZ(0)'
-                   }}
+                  <img 
+                    src="/logoo1.png" 
+                    alt="SinghOps Logo" 
+                    className="h-12 w-12 rounded-full transition-all duration-300 group-hover:scale-110 group-hover:rotate-12 object-cover"
                   />
                   <span>Download Resume</span>
                 </button>

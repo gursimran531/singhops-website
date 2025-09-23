@@ -355,10 +355,6 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.02);
 }
 
-.hover\:rotate-360:hover {
-  transform: rotate(360deg);
-}
-
 /* Glass morphism effect */
 .backdrop-blur-sm {
   backdrop-filter: blur(4px);
