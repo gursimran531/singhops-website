@@ -897,10 +897,10 @@ function App() {
                   onClick={downloadResume}
                   className={`px-8 py-4 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg font-semibold flex items-center space-x-2 ${isDarkMode ? 'bg-cyan-600 hover:bg-cyan-700 text-white' : 'bg-cyan-600 hover:bg-cyan-700 text-white'}`}
                 >
-                  <img 
-                    src="/logoo1.png" 
-                    alt="SinghOps Logo" 
-                    className="h-12 w-12 rounded-full transition-all duration-300 group-hover:scale-110 group-hover:rotate-12 object-cover"
+                   style={{
+                     backfaceVisibility: 'hidden',
+                     transform: 'translateZ(0)'
+                   }}
                   />
                   <span>Download Resume</span>
                 </button>
