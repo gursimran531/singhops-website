@@ -518,16 +518,6 @@ function App() {
               >
                 <ExternalLink className="h-5 w-5" />
                 <span>Read Blog</span>
-              </button>
-              
-              <button 
-                onClick={() => setIsResumeModalOpen(true)}
-                className="px-2 py-1 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg font-semibold flex items-center space-x-1 bg-cyan-600 hover:bg-cyan-700 text-white text-xs"
-              >
-                <Eye className="h-5 w-5" />
-                <span>View Resume</span>
-              </button>
-            </div>
           </div>
         </div>
         
