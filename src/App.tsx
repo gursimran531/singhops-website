@@ -481,8 +481,8 @@ function App() {
                 <img 
                   src="/profile.jpg" 
                   alt="Gursimran Singh" 
-                  className="h-32 w-32 rounded-xl object-cover image-rendering-crisp-edges"
-                  style={{
+                  className="h-32 w-32 rounded-full object-cover image-rendering-crisp-edges transition-transform duration-500 hover:rotate-360"
+                />
                     imageRendering: 'crisp-edges',
                     filter: 'contrast(1.1) brightness(1.05) saturate(1.1)',
                     backfaceVisibility: 'hidden',
