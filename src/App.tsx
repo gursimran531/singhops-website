@@ -518,6 +518,8 @@ function App() {
               >
                 <ExternalLink className="h-5 w-5" />
                 <span>Read Blog</span>
+              </button>
+            </div>
           </div>
         </div>
         
@@ -887,11 +889,7 @@ function App() {
                   onClick={downloadResume}
                   className={`px-8 py-4 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg font-semibold flex items-center space-x-2 ${isDarkMode ? 'bg-cyan-600 hover:bg-cyan-700 text-white' : 'bg-cyan-600 hover:bg-cyan-700 text-white'}`}
                 >
-                  <img 
-                    src="/profile.jpg" 
-                    alt="Gursimran Singh" 
-                    className="h-32 w-32 rounded-full object-cover image-rendering-crisp-edges"
-                  />
+                  <Download className="h-5 w-5" />
                   <span>Download Resume</span>
                 </button>
               </div>
