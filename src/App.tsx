@@ -296,7 +296,7 @@ function App() {
             <div className="flex items-center space-x-2">
               <button onClick={handleLogoClick} className="flex items-center space-x-2 group">
                 <img 
-                  src="/generated-image (1).png" 
+                  src="/pc.png" 
                   alt="SinghOps Logo" 
                   className="h-12 w-12 rounded-full transition-all duration-300 group-hover:scale-110 group-hover:rotate-12 object-cover"
                 />
