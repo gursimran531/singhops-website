@@ -900,7 +900,7 @@ function App() {
                   <img 
                     src="/logoo1.png" 
                     alt="SinghOps Logo" 
-                    className="h-12 w-12 rounded-full transition-all duration-300 group-hover:scale-110 group-hover:rotate-12 object-cover"
+                    className="h-32 w-32 rounded-full object-cover image-rendering-crisp-edges"
                   />
                   <span>Download Resume</span>
                 </button>
