@@ -519,6 +519,14 @@ function App() {
                 <ExternalLink className="h-5 w-5" />
                 <span>Read Blog</span>
               </button>
+              
+              <button 
+                onClick={() => setIsResumeModalOpen(true)}
+                className={`px-8 py-4 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg font-semibold flex items-center justify-center space-x-2 ${isDarkMode ? 'bg-cyan-600 hover:bg-cyan-700 text-white' : 'bg-cyan-600 hover:bg-cyan-700 text-white'}`}
+              >
+                <Eye className="h-5 w-5" />
+                <span>View Resume</span>
+              </button>
             </div>
           </div>
         </div>
@@ -832,7 +840,7 @@ function App() {
               rel="noopener noreferrer"
               className={`inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg font-semibold ${isDarkMode ? 'bg-cyan-600 hover:bg-cyan-700 text-white' : 'bg-blue-700 hover:bg-blue-800 text-white'}`}
             >
-              <span>Read More on blog.singhops.net</span>
+              <span>Read More on blogs.singhops.net</span>
               <ExternalLink className="h-5 w-5" />
             </a>
           </div>
@@ -889,7 +897,11 @@ function App() {
                   onClick={downloadResume}
                   className={`px-8 py-4 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg font-semibold flex items-center space-x-2 ${isDarkMode ? 'bg-cyan-600 hover:bg-cyan-700 text-white' : 'bg-cyan-600 hover:bg-cyan-700 text-white'}`}
                 >
-                  <Download className="h-5 w-5" />
+                  <img 
+                    src="/logoo1.png" 
+                    alt="SinghOps Logo" 
+                    className="h-12 w-12 rounded-full transition-all duration-300 group-hover:scale-110 group-hover:rotate-12 object-cover"
+                  />
                   <span>Download Resume</span>
                 </button>
               </div>
@@ -997,8 +1009,8 @@ function App() {
                 {/* LinkedIn */}
                 <div className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
                   <Linkedin className="w-5 h-5 text-blue-500" />
-                  <a href="https://www.linkedin.com/in/gursimran-singh-269ba5224" target="_blank" rel="noopener noreferrer" className="font-body hover:underline">
-                    linkedin.com
+                  <a href="https://linkedin.com/in/gursimran531" target="_blank" rel="noopener noreferrer" className="font-body hover:underline">
+                    linkedin.com/in/gursimran531
                   </a>
                 </div>
               </div>
