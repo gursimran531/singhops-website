@@ -908,7 +908,11 @@ function App() {
             </div>
 
             <div className="animate-fadeInRight">
-              <form onSubmit={handleSubmit} className={`p-8 rounded-2xl ${isDarkMode ? 'bg-gray-700' : 'bg-gray-50'}`}>
+              <form 
+                action="https://formspree.io/f/mzzjbwve"
+                method="POST"
+                className={`p-8 rounded-2xl ${isDarkMode ? 'bg-gray-700' : 'bg-gray-50'}`}
+              >
                 <h3 className={`text-xl font-bold mb-6 ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>Send a Message</h3>
                 
                 <div className="space-y-6">
@@ -918,8 +922,6 @@ function App() {
                       type="text"
                       id="name"
                       name="name"
-                      value={formData.name}
-                      onChange={handleFormChange}
                       required
                       className={`w-full px-4 py-3 border rounded-lg transition-all duration-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent ${isDarkMode ? 'bg-gray-600 border-gray-500 text-white placeholder-gray-400' : 'bg-white border-gray-300'}`}
                     />
@@ -931,8 +933,6 @@ function App() {
                       type="email"
                       id="email"
                       name="email"
-                      value={formData.email}
-                      onChange={handleFormChange}
                       required
                       className={`w-full px-4 py-3 border rounded-lg transition-all duration-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent ${isDarkMode ? 'bg-gray-600 border-gray-500 text-white placeholder-gray-400' : 'bg-white border-gray-300'}`}
                     />
@@ -943,8 +943,6 @@ function App() {
                     <textarea
                       id="message"
                       name="message"
-                      value={formData.message}
-                      onChange={handleFormChange}
                       required
                       rows={5}
                       className={`w-full px-4 py-3 border rounded-lg transition-all duration-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent ${isDarkMode ? 'bg-gray-600 border-gray-500 text-white placeholder-gray-400' : 'bg-white border-gray-300'}`}
