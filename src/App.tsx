@@ -1009,8 +1009,8 @@ function App() {
                 {/* LinkedIn */}
                 <div className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
                   <Linkedin className="w-5 h-5 text-blue-500" />
-                  <a href="https://linkedin.com/in/gursimran531" target="_blank" rel="noopener noreferrer" className="font-body hover:underline">
-                    linkedin.com/in/gursimran531
+                  <a href="https://www.linkedin.com/in/gursimran-singh-269ba5224" target="_blank" rel="noopener noreferrer" className="font-body hover:underline">
+                    linkedin
                   </a>
                 </div>
               </div>
