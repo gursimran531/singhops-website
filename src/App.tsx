@@ -799,21 +799,21 @@ function App() {
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             {[
               {
-                category: 'AWS • DevOps',
-                title: 'Building Scalable Infrastructure with Terraform',
-                description: 'Learn how to create reusable, scalable infrastructure using Terraform modules and best practices.',
+                category: 'AWS • Certifications',
+                title: 'My AWS Certification Journey 🚀',
+                description: 'I wanted to start by sharing a big part of my journey — how I went from juggling two jobs to becoming AWS Certified (Cloud Practitioner, Solutions Architect Associate, Developer Associate).',
                 readTime: '5 min read'
               },
               {
-                category: 'CI/CD • GitHub Actions',
-                title: 'Automated Deployments with GitHub Actions',
-                description: 'Complete guide to setting up automated CI/CD pipelines for cloud applications.',
+                category: 'Terraform • GitHub Actions',
+                title: 'The Terraform Adventure: How I Automated My Cloud 🚀',
+                description: ' Gather around for a story about how I dove headfirst into the world of Infrastructure as Code using Terraform. Spoiler alert: It’s been a wild ride full of learning, coffee ☕, and a touch of magic 🪄.',
                 readTime: '8 min read'
               },
               {
-                category: 'Docker • Containerization',
-                title: 'Docker Best Practices for Production',
-                description: 'Essential Docker practices for building secure, efficient containers in production environments.',
+                category: 'Front-End Dev • AI',
+                title: 'Building Website Project with AI Assistance 🤖🌐',
+                description: 'Welcome to the story behind my latest passion project: the Bhujhang Website. It’s a tale of creativity, technology, and teamwork—with a little AI magic sprinkled in! 🪄.',
                 readTime: '6 min read'
               }
             ].map((post, index) => (
